@@ -1,8 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-//only run that testcase
-
-test.describe.only('HomePageTests',()=>{   
+test.describe('HomePageTests',()=>{   
     test('HomePageTitleTest',async({page})=>{
         console.log('This is Home Page Title Test')
     })
